@@ -2,7 +2,7 @@
 
 A map and photo based blogging engine
 
-## Recommended Setup
+## Requirements
 
 [VSCode](https://code.visualstudio.com/) + Nodejs + npm.
 
@@ -18,9 +18,13 @@ There are scripts to generate trips. `npm run create-trip` will generate a new t
 
 ### Install and Start
 
-```sh
-npm install
+Fork your own copy of this template repo, clone it, and then run the following commands.
 
+```sh
+git submodule init
+git submodule update
+
+npm install
 npm run dev
 ```
 
