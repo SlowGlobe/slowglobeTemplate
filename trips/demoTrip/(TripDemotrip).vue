@@ -8,7 +8,9 @@ import SGText from '@/components/SGText.vue'
 import SGMapOrbit from '@/components/SGMapOrbit.vue'
 import SGMapFollow from '@/components/SGMapFollow.vue'
 import SpotifyEmbed from '@/components/SpotifyEmbed.vue'
+import type { Feature, LineString } from 'geojson'
 const { data: geom } = useTripDetails()
+const everestHike = geom.value?.features[2] as Feature<LineString>
 </script>
 
 <template>
@@ -87,7 +89,7 @@ const { data: geom } = useTripDetails()
       <p>We can also follow a path, useful for showing a hike for example.</p>
     </SGText>
     <SGMapFollow
-      :geometry="geom?.features?.[2]"
+      :geometry="everestHike"
       :follow="true"
       :overview="false"
       :satellite="true"
