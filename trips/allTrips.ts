@@ -21,6 +21,6 @@ export const allTrips: Trip[] = [
   gavle,
   bracke,
   sweden,
-  greatOceanRoad,
+  // greatOceanRoad,
   flinders
 ]

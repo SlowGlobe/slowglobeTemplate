@@ -42,7 +42,7 @@ const { data: geom } = useTripDetails()
         owner, who just wanted to talk to us about Australia, and wouldn’t let us steer the
         conversation to the much more interesting topic of dogs with sleds. It really seems like
         every Swede has either been to Australia or has family living there, which always amazes me
-        given the distance.
+        given the distance. Then again, here we are...
       </p>
       <p>
         Coming back down the mountain was much harder than going up. It was also much faster. The
@@ -72,7 +72,7 @@ const { data: geom } = useTripDetails()
       <p>
         The next day we decided to go downhill skiing at Vemdalen. We were a little bit worried
         about the wind as we left the house, but it turned out to be an absolutely beautiful day
-        with clear skies and hardly any wind. They were some sketchy patches of very solid and
+        with clear skies and hardly any wind. There were some sketchy patches of very solid and
         frozen snow in parts, but for the most part the skiing was great.
       </p>
     </SGText>
