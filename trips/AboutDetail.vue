@@ -1,6 +1,6 @@
 <template>
   <div class="attribution">
-    <PostageStamp image="/images/DSC_0722.jpg"></PostageStamp>
+    <PostageStamp :image="headshot"></PostageStamp>
     <br />
     <br />
     <div>
@@ -64,4 +64,5 @@
 </style>
 <script setup lang="ts">
 import PostageStamp from '@/components/PostageStamp.vue'
+import headshot from './DSC_0722.jpg'
 </script>
