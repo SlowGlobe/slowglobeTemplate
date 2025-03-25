@@ -1,6 +1,6 @@
 # slowglobe
 
-A map and photo based blogging engine
+A map and photo based blogging engine. Check out the demo at [slowglobetemplatedemo.pages.dev](https://slowglobetemplatedemo.pages.dev/)
 
 ## Requirements
 
