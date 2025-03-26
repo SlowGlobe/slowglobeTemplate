@@ -83,8 +83,14 @@ const everestHike = geom.value?.features[2] as Feature<LineString>
         need to include the order property if you're not using the reveal option at all, but if you
         use it anywhere on the page it needs to be included in all the features.
       </p>
+      <p>We're also showing contour lines and hillshading in the view below.</p>
     </SGText>
-    <SGMapCutout :fit-bounds-geometry="geom" :reveal="2" :fit-only-to-indexes="[2]" />
+    <SGMapCutout
+      :fit-bounds-geometry="geom"
+      :reveal="2"
+      :fit-only-to-indexes="[2]"
+      :satellite="'contours'"
+    />
     <SGText>
       <p>We can also follow a path, useful for showing a hike for example.</p>
     </SGText>
@@ -95,5 +101,10 @@ const everestHike = geom.value?.features[2] as Feature<LineString>
       :satellite="true"
       :follow-zoom="13"
     />
+    <SGText>
+      <p>
+        That's it for this demo trip. Find more examples by looking through published blogs.
+      </p></SGText
+    >
   </DetailView>
 </template>
