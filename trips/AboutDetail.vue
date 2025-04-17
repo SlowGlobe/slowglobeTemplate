@@ -10,8 +10,8 @@
     <br />
     <br />
     SlowGlobe is a travel blogging tool, find out more at
-    <a href="https://github.com/dlbs0/slowglobeTemplate" target="_blank"
-      >github.com/dlbs0/slowglobeTemplate</a
+    <a href="https://github.com/SlowGlobe/slowglobeTemplate" target="_blank"
+      >github.com/SlowGlobe/slowglobeTemplate</a
     >
     <br />
     <br />
