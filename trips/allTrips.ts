@@ -14,7 +14,7 @@ import { crossCountryKlovsjo } from './crossCountryKlovsjo/crossCountryKlovsjo'
 export const allTrips: Trip[] = [
   // demoTrip,
   crossCountryKlovsjo,
-  // golden_day_in_sweden,
+  golden_day_in_sweden,
   germanGigs,
   abisko,
   ljusdal,
