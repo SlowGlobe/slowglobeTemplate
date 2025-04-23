@@ -5,6 +5,7 @@ import SGGallery from '@/components/SGGallery.vue'
 import SGMapCutout from '@/components/SGMapCutout.vue'
 import SGText from '@/components/SGText.vue'
 import { useTripDetails } from '@/functions/loaders'
+import SGDayBreak from '@/components/SGDayBreak.vue'
 const { data: geom } = useTripDetails()
 </script>
 
@@ -186,8 +187,112 @@ const { data: geom } = useTripDetails()
         boardwalks, we traded gold for silver, with headtorches lighting our way home. This section
         of the trail was raised above the snowdrifts, but the snow on the boardwalks had frozen
         solid. The studs on our shoes made sure we had plenty of grip on the ice, but the ice had no
-        such guarantee of it's grip to the boards.
+        such guarantee of it's grip to the boards. Despite a few near misses, we made it back to the
+        carpark without any major incidents.
       </p>
+      <SGDayBreak />
+      <p>
+        All great trips include a culinary exploration experience, especially when Nathan and Dan
+        are allowed to go shopping together. We bought several fun and unusual items to try
+        throughout the week, including:
+      </p>
+      <ul>
+        <li>
+          <strong>Reindeer Stew</strong> - flavour-filled and surprisingly filling <br />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-half-rounded" inline />
+        </li>
+        <li>
+          <strong>Siracha Cheese Spread</strong> - mildly inedible, tastes like off plastic <br />
+          <iconify-icon icon="material-symbols:star-half-rounded" inline />
+          <iconify-icon icon="material-symbols:star-outline-rounded" inline />
+          <iconify-icon icon="material-symbols:star-outline-rounded" inline />
+          <iconify-icon icon="material-symbols:star-outline-rounded" inline />
+          <iconify-icon icon="material-symbols:star-outline-rounded" inline />
+        </li>
+        <li>
+          <strong>Kalle (caviar paste)</strong> - intense, initially tasty, but strong aftertaste.
+          Note: the happy boy on the packet has put way too much on <br />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-outline-rounded" inline />
+          <iconify-icon icon="material-symbols:star-outline-rounded" inline />
+          <iconify-icon icon="material-symbols:star-outline-rounded" inline />
+        </li>
+        <li>
+          <strong>Blueberry/Strawberry Soup</strong> - surprisingly versatile, finding its way into
+          breakfasts and desserts<br />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-outline-rounded" inline />
+        </li>
+        <li>
+          <strong>Max Umami Sauce</strong> - basically cheap truffle mayo, delicious, found it later
+          in the supermarket<br />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+        </li>
+        <li>
+          <strong>Pick and Mix</strong> - Incredibly large selection of sugar, all for a fixed per
+          kilo price<br />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+        </li>
+        <li>
+          <strong>Swedish Chocolate</strong> - Several varieties were consumed, all were
+          delicious<br />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+        </li>
+        <li>
+          <strong>BaconOst</strong> - Bacon flavoured cheese in a tube, what more could you want?<br />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-outline-rounded" inline />
+        </li>
+        <li>
+          <strong>Mandelkubb</strong> - Tasty marzipan biscuits, best consumed on stairs<br />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-half-rounded" inline />
+        </li>
+        <li>
+          <strong>Dill Flavoured Chips</strong> - Bek claims she was unimpressed, but ate most of
+          the packet<br />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-rounded" inline />
+          <iconify-icon icon="material-symbols:star-outline-rounded" inline />
+        </li>
+      </ul>
     </SGText>
+    <SGGallery
+      :list="[
+        {
+          img: 'PXL_20250227_212707341.jpg',
+          caption: 'Posing with some of our experimental foods'
+        },
+        { img: 'PXL_20250227_171257098.jpg', caption: 'The mega pick and mix' }
+      ]"
+    />
   </DetailView>
 </template>
