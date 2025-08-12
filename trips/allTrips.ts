@@ -10,9 +10,11 @@ import { golden_day_in_sweden } from '~/golden_day_in_sweden/golden_day_in_swede
 import { greatOceanRoad } from '~/greatOceanRoad/greatOceanRoad'
 import { abisko } from './abisko/abisko'
 import { crossCountryKlovsjo } from './crossCountryKlovsjo/crossCountryKlovsjo'
+import { flytfest } from './flytfest/flytfest'
 
 export const allTrips: Trip[] = [
   // demoTrip,
+  flytfest,
   crossCountryKlovsjo,
   golden_day_in_sweden,
   germanGigs,
